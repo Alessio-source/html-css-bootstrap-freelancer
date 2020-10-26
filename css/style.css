@@ -434,5 +434,9 @@ footer > .container-fluid:last-child > p {
   main > section:first-of-type > .row > .col-xs-12 > img {
     height: 300px;
   }
+
+  main > section:nth-child(2) {
+    font-size: 30px;
+  }
 }
 /* /ipad, ipad pro */
