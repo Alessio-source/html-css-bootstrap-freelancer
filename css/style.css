@@ -1,0 +1,26 @@
+/* generici */
+.debug [class*="col-"] {
+  min-height: 40px;
+  border: 1px solid black;
+  background-color: grey;
+}
+/* /generici */
+
+/* specifici */
+.debug > header > nav.navbar {
+  height: 90px;
+  background-color: pink;
+}
+
+header > nav > .container-fluid > h2 {
+  line-height: 90px;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+header > nav > .jumbotron {
+  height: 500px;
+  background-color: #31BC9C;
+}
+/* /specifici */
