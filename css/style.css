@@ -373,11 +373,11 @@ footer > .container-fluid:last-child > p {
 }
 /* /computer */
 
-/* ipad */
-@media screen and (min-width: 1024px) {
+/* ipad, ipad pro */
+@media screen and (min-width: 768px) {
   /* generici */
   .line {
-    height: 10px;
+    height: 6px;
     width: 200px;
     border-radius: 10px;
   }
@@ -389,7 +389,7 @@ footer > .container-fluid:last-child > p {
 
   main > section:nth-child(1) > .line,
   main > section:nth-child(3) > .line {
-    height: 10px;
+    height: 6px;
     width: 200px;
     display: inline-block;
     border-radius: 10px;
@@ -427,5 +427,12 @@ footer > .container-fluid:last-child > p {
     font-weight: 500;
     margin-bottom: 50px;
   }
+
+  main > section:first-of-type > .row > .col-xs-12 {
+    height: 300px;
+  }
+  main > section:first-of-type > .row > .col-xs-12 > img {
+    height: 300px;
+  }
 }
-/* /ipad */
+/* /ipad, ipad pro */
