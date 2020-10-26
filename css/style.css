@@ -51,14 +51,13 @@
   header > nav.navbar {
     height: 90px;
     background-color: #2C3E51;
-    padding: 0 30px;
     border: none;
   }
   header > nav > .container > h2 {
     line-height: 90px;
     margin: 0;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 1em;
     font-weight: 700;
   }
   header > .jumbotron {
@@ -98,31 +97,29 @@
     margin-bottom: 100px;
   }
   main > section:first-of-type > .row > .col-xs-12 {
-    height: 254px;
+    height: 220px;
     margin-top: 25px;
     margin-bottom: 25px;
   }
   main > section:first-of-type > .row img {
-    height: 254px;
+    height: 220px;
     width: 100%;
     border-radius: 20px;
   }
 
   main > section:nth-child(2) {
-    min-height: 200px;
     background-color: #31BC9C;
-    padding: 0 80px 80px 80px;
-    font-size: 50px;
+    padding-bottom: 60px;
     text-align: center; /* per centrare il link del donwload */
+    font-size: 20px;
   }
   main > section:nth-child(2) > .row > p {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     text-align: left;
     color: white;
   }
   main > section:nth-child(2) > a {
-    padding: 30px;
+    padding: 20px;
     text-decoration: none;
     border-radius: 20px;
     border: 3px solid white;
@@ -130,7 +127,7 @@
   }
 
   main > section:nth-child(3){
-    padding: 0 80px 50px 80px;
+    padding: 0 15px 50px 15px;
   }
   main > section:nth-child(3) > h2 {
     text-align: center;
@@ -139,7 +136,7 @@
     width: 100%;
     height: 90px;
     margin-top: 50px;
-    font-size: 50px;
+    font-size: 20px;
     border: none;
     border-bottom: 3px solid #CCCCCC;
     padding-bottom: 50px;
@@ -152,7 +149,7 @@
     width: 100%;
     height: 300px;
     margin-top: 50px;
-    font-size: 50px;
+    font-size: 20px;
     border: none;
     border-bottom: 3px solid #CCCCCC;
     padding-bottom: 50px;
@@ -164,9 +161,9 @@
   main > section:nth-child(3) > form > input[type="button"] {
     margin-top: 50px;
     padding: 20px 50px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
-    font-size: 50px;
+    font-size: 20px;
     background-color: #31BC9C;
     color: white;
   }
@@ -174,13 +171,12 @@
   footer {
     background-color: #3A546D;
     color: white;
-    font-size: 45px;
+    font-size: 25px;
     text-align: center;
   }
 
 
   footer > .container:first-child > .row {
-    padding: 0 20px;
     margin-bottom: 100px;
   }
   footer > .container:first-child > .row > .col-xs-12 > p:first-child,
@@ -193,17 +189,18 @@
     list-style: none;
     font-size: 30px;
     text-align: center;
+    padding: 0;
   }
   footer > .container:first-child > .row > .col-xs-12 > ul > li {
     display: inline-block;
-    width: 130px;
-    height: 130px;
-    margin: 10px 20px;
+    width: 60px;
+    height: 60px;
+    margin: 10px 0;
     border: 3px solid white;
     border-radius: 50%;
   }
   footer > .container:first-child > .row > .col-xs-12 > ul > li > a {
-    line-height: 130px;
+    line-height: 60px;
     color: white;
   }
   footer > .container:first-child > .row > .col-xs-12 > p:nth-child(6) {
