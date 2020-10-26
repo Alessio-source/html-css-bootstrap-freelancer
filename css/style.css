@@ -1,5 +1,9 @@
 @media screen and (min-width: 0px) {
   /* generici */
+  html {
+    scroll-behavior: smooth;
+  }
+
   .container {
     min-height: 30px;
   }
@@ -54,12 +58,29 @@
     border: none;
   }
   header > nav > .container > h2 {
+    display: inline-block;
     line-height: 90px;
     margin: 0;
     text-transform: uppercase;
     font-size: 1em;
     font-weight: 700;
   }
+  header > nav > .container > ul {
+    display: none;
+    float: right;
+    text-align: right;
+    list-style: none;
+    line-height: 90px;
+  }
+  header > nav > .container > ul > li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  header > nav > .container > ul > li > a {
+    font-size: 20px;
+    color: white;
+  }
+
   header > .jumbotron {
     margin: 90px 0 0 0; /* per rimuovere il margine di 30px in bottom */
     text-align: center;
@@ -227,6 +248,10 @@
 
 /* ipad, ipad pro */
 @media only screen and (min-width: 768px) {
+  header > nav > .container > ul {
+    display: inline-block;
+  }
+  
   footer > .container {
     max-width: 1170px;
   }
