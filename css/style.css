@@ -51,6 +51,7 @@ header > nav.navbar {
   height: 190px;
   background-color: #2C3E51;
   padding: 0 30px;
+  border: none;
 }
 header > nav > .container-fluid > h2 {
   line-height: 190px;
@@ -239,6 +240,50 @@ footer > .container-fluid:last-child > p {
 
 /* computer */
 @media screen and (min-width: 1200px) {
+
+/* generici */
+  .line {
+    height: 5px;
+    background-color: white;
+    width: 150px;
+    display: inline-block;
+    border-radius: 10px;
+  }
+
+  svg {
+    height: 40px;
+    color: white;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 20px 30px;
+  }
+/* /generici */
+
+/* specifici */
+  header > nav.navbar {
+    height: 90px;
+  }
+  header > nav > .container-fluid > h2 {
+    line-height: 90px;
+    font-size: 25px;
+  }
+
+  header > .jumbotron {
+    margin: 90px 0 0 0; /* per rimuovere il margine di 30px in bottom */
+  }
+  header > .jumbotron > img {
+    margin-top: 80px;
+    height: 260px;
+  }
+  header > .jumbotron > h1 {
+    margin-top: 50px;
+    font-size: 60px;
+  }
+  header > .jumbotron > p {
+    font-size: 25px;
+    margin-bottom: 80px;
+  }
+
   main > section:first-of-type > .row > .col-xs-12 {
     height: 300px;
   }
@@ -246,4 +291,5 @@ footer > .container-fluid:last-child > p {
     height: 300px;
   }
 }
+/* /specifici */
 /* /computer */
