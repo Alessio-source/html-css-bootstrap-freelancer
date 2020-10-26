@@ -125,7 +125,7 @@
   main > section:first-of-type > .row img {
     height: 220px;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
   }
 
   main > section:nth-child(2) {
@@ -142,7 +142,7 @@
   main > section:nth-child(2) > a {
     padding: 20px;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 10px;
     border: 3px solid white;
     color: white;
   }
@@ -251,7 +251,7 @@
   header > nav > .container > ul {
     display: inline-block;
   }
-  
+
   footer > .container {
     max-width: 1170px;
   }
