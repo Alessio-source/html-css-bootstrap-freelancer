@@ -4,22 +4,26 @@
   border: 1px solid black;
   background-color: grey;
 }
+
+.container {
+  min-height: 30px;
+}
 /* /generici */
 
 /* specifici */
-.debug > header > nav.navbar {
+header > nav.navbar {
   height: 90px;
-  background-color: pink;
+  background-color: #2C3E51;
+  color: white;
 }
-
 header > nav > .container-fluid > h2 {
   line-height: 90px;
   margin: 0;
   text-transform: uppercase;
   font-size: 20px;
 }
-
-header > nav > .jumbotron {
+header > .jumbotron {
+  margin: 90px 0 0 0; /* per rimuovere il margine di 30px in bottom */
   height: 500px;
   background-color: #31BC9C;
 }
