@@ -173,29 +173,28 @@ main > section:nth-child(3) > form > input[type="button"] {
 
 footer {
   background-color: #3A546D;
-  min-height: 90px;
   color: white;
   font-size: 45px;
   text-align: center;
 }
 
 
-footer > .container-fluid:first-child {
-  min-height: 500px;
+footer > .container:first-child > .row {
   padding: 0 20px;
+  margin-bottom: 100px;
 }
-footer > .container-fluid:first-child > p:first-child,
-footer > .container-fluid:first-child > p:nth-child(3),
-footer > .container-fluid:first-child > p:nth-child(5){
+footer > .container:first-child > .row > .col-xs-12 > p:first-child,
+footer > .container:first-child > .row > .col-xs-12 > p:nth-child(3),
+footer > .container:first-child > .row > .col-xs-12 > p:nth-child(5){
   margin-top: 100px;
   text-transform: uppercase;
 }
-footer > .container-fluid:first-child > ul {
+footer > .container:first-child > .row > .col-xs-12 > ul {
   list-style: none;
   font-size: 60px;
   text-align: center;
 }
-footer > .container-fluid:first-child > ul > li {
+footer > .container:first-child > .row > .col-xs-12 > ul > li {
   display: inline-block;
   width: 130px;
   height: 130px;
@@ -203,14 +202,14 @@ footer > .container-fluid:first-child > ul > li {
   border: 3px solid white;
   border-radius: 50%;
 }
-footer > .container-fluid:first-child > ul > li > a {
+footer > .container:first-child > .row > .col-xs-12 > ul > li > a {
   line-height: 130px;
   color: white;
 }
-footer > .container-fluid:first-child > p:nth-child(6) {
+footer > .container:first-child > .row > .col-xs-12 > p:nth-child(6) {
   margin-bottom: 150px;
 }
-footer > .container-fluid:first-child > p > a {
+footer > .container:first-child > .row > .col-xs-12 > p > a {
   color: #31BC9C;
 }
 footer > .container-fluid:last-child {
@@ -338,6 +337,38 @@ footer > .container-fluid:last-child > p {
     padding: 20px 30px;
     border-radius: 10px;
     font-size: 20px;
+  }
+
+  footer {
+    font-size: 20px;
+  }
+  footer > .container:first-child > .row {
+    margin-bottom: 80px;
+  }
+  footer > .container:first-child > .row > .col-xs-12 {
+    margin: 0;
+  }
+  footer > .container:first-child > .row > .col-xs-12 > ul {
+    font-size: 20px;
+  }
+  footer > .container:first-child > .row > .col-xs-12 > ul > li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px 5px;
+  }
+  footer > .container:first-child > .row > .col-xs-12 > ul > li > a {
+    line-height: 50px;
+  }
+
+  footer > .container-fluid:last-child {
+    min-height: 10px;
+    background-color: #2C3E51;
+  }
+
+  footer > .container-fluid:last-child > p {
+    margin: 30px 0;
+    font-size: 18px;
   }
 }
 /* /specifici */
