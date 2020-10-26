@@ -100,7 +100,6 @@ main > section:first-of-type > .row > .col-xs-12 {
   height: 700px;
   margin-top: 25px;
   margin-bottom: 25px;
-  overflow: hidden;
 }
 main > section:first-of-type > .row img {
   height: 700px;
@@ -346,7 +345,6 @@ footer > .container-fluid:last-child > p {
 
   footer > .container-fluid:last-child {
     min-height: 10px;
-    background-color: #2C3E51;
   }
 
   footer > .container-fluid:last-child > p {
@@ -362,7 +360,6 @@ footer > .container-fluid:last-child > p {
   /* generici */
   .line {
     height: 5px;
-    background-color: white;
     width: 150px;
     display: inline-block;
     border-radius: 10px;
@@ -370,7 +367,6 @@ footer > .container-fluid:last-child > p {
 
   svg {
     height: 40px;
-    color: white;
     vertical-align: middle;
     display: inline-block;
     margin: 20px 30px;
@@ -379,7 +375,6 @@ footer > .container-fluid:last-child > p {
   main > section:nth-child(1) > .line,
   main > section:nth-child(3) > .line {
     height: 5px;
-    background-color: #2C3E51;
     width: 150px;
     display: inline-block;
     border-radius: 10px;
@@ -388,7 +383,6 @@ footer > .container-fluid:last-child > p {
   main > section:nth-child(1) > svg,
   main > section:nth-child(3) > svg {
     height: 40px;
-    color: #2C3E51;
     vertical-align: middle;
     display: inline-block;
     margin: 20px 30px;
@@ -496,7 +490,6 @@ footer > .container-fluid:last-child > p {
 
   footer > .container-fluid:last-child {
     min-height: 10px;
-    background-color: #2C3E51;
   }
 
   footer > .container-fluid:last-child > p {
