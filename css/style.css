@@ -106,4 +106,56 @@ main > section:nth-child(3) > input[type="button"] {
   background-color: #31BC9C;
   color: white;
 }
+
+footer {
+  background-color: #3A546D;
+  min-height: 90px;
+  color: white;
+  font-size: 45px;
+  text-align: center;
+}
+
+
+footer > .container-fluid:first-child {
+  min-height: 500px;
+  padding: 0 20px;
+}
+footer > .container-fluid:first-child > p:first-child,
+footer > .container-fluid:first-child > p:nth-child(3),
+footer > .container-fluid:first-child > p:nth-child(5){
+  margin-top: 100px;
+  text-transform: uppercase;
+}
+footer > .container-fluid:first-child > ul {
+  list-style: none;
+  font-size: 60px;
+  text-align: center;
+}
+footer > .container-fluid:first-child > ul > li {
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  margin: 10px 20px;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+footer > .container-fluid:first-child > ul > li > a {
+  line-height: 130px;
+  color: white;
+}
+footer > .container-fluid:first-child > p:nth-child(6) {
+  margin-bottom: 150px;
+}
+footer > .container-fluid:first-child > p > a {
+  color: #31BC9C;
+}
+footer > .container-fluid:last-child {
+  min-height: 380px;
+  background-color: #2C3E51;
+}
+
+footer > .container-fluid:last-child > p {
+  margin-top: 100px;
+  font-size: 40px;
+}
 /* /specifici */
