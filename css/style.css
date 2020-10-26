@@ -12,6 +12,22 @@
 .row {
   margin: 0;
 }
+
+.line {
+  height: 10px;
+  background-color: white;
+  width: 300px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+svg {
+  height: 100px;
+  color: white;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 50px 30px;
+}
 /* /generici */
 
 /* specifici */
@@ -19,7 +35,6 @@ header > nav.navbar,
 main > section:nth-child(2) > h2, main > section:nth-child(2) > p {
   color: white;
 }
-
 header > nav.navbar {
   height: 190px;
   background-color: #2C3E51;
