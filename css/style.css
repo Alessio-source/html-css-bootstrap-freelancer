@@ -371,5 +371,21 @@ footer > .container-fluid:last-child > p {
     font-size: 18px;
   }
 }
-/* /specifici */
 /* /computer */
+
+/* ipad */
+@media screen and (min-width: 1024px) {
+  /* specifici */
+  header > nav.navbar {
+    height: 120px;
+  }
+  header > nav > .container-fluid > h2 {
+    line-height: 120px;
+    font-size: 30px;
+  }
+
+  header > .jumbotron {
+    margin: 120px 0 0 0; /* per rimuovere il margine di 30px in bottom */
+  }
+}
+/* /ipad */
