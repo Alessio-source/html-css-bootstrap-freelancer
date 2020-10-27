@@ -209,6 +209,7 @@
     font-size: 20px;
     background-color: #31BC9C;
     color: white;
+    transition: background-color 0.2s;
   }
 
   footer {
@@ -241,10 +242,12 @@
     margin: 10px 0;
     border: 3px solid white;
     border-radius: 50%;
+    transition: all 0.2s;
   }
   footer > .container:first-child > .row > .col-xs-12 > ul > li > a {
     line-height: 60px;
     color: white;
+    transition: all 0.2s;
   }
   footer > .container:first-child > .row > .col-xs-12 > p:nth-child(6) {
     margin-bottom: 150px;
@@ -303,6 +306,10 @@
 
   main > section:first-of-type > .row > .col-xs-12:hover > .layover {
     opacity: 1;
+  }
+
+  main > section:nth-child(3) > form > input[type="button"]:hover {
+    background-color: #148f77;
   }
 
   main > section:nth-child(2) > a:hover,
