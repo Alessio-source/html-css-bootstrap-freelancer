@@ -293,6 +293,14 @@
   header > .jumbotron > h1 {
     font-size: 5em;
   }
+  main > section:nth-child(3) > form > input:not(:last-child) {
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 0px;
+    margin-top: 10px;
+  }
+  main > section:nth-child(3) > form > textarea {
+    border-bottom: 1px solid #CCCCCC;
+  }
 
   footer > .container {
     max-width: 1170px;
