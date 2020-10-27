@@ -305,8 +305,13 @@
     opacity: 1;
   }
 
-  main > section:nth-child(2) > a:hover {
+  main > section:nth-child(2) > a:hover,
+  footer > .container:first-child > .row > .col-xs-12 > ul > li:hover {
     background-color: white;
     color: black;
+  }
+  footer > .container:first-child > .row > .col-xs-12 > ul > li:hover > a {
+    color: black;
+    text-decoration: none;
   }
 /* /animazioni */
