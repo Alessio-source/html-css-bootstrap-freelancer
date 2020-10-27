@@ -307,7 +307,7 @@
     color: #31BC9C;
   }
 
-  main > section:first-of-type > .row > .col-xs-12:hover > .layover {
+  main > section:first-of-type > .row > .col-xs-12 > .layover:hover {
     opacity: 1;
   }
 
