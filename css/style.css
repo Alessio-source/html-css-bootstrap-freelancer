@@ -120,6 +120,30 @@
     width: 100%;
     border-radius: 10px;
   }
+  main > section:first-of-type > .row > .col-xs-12 {
+    position: relative;
+    overflow: hidden;
+  }
+  main > section:first-of-type > .row > .col-xs-12 > .layover {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    width: calc(100% - 30px);
+    height: 100%;
+    z-index: 2;
+    background-color: rgba(49, 188, 156, 0.8);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity 0.4s;
+  }
+  main > section:first-of-type > .row > .col-xs-12 > .layover > .fas {
+    position: absolute;
+    font-size: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
 
   main > section:nth-child(2) {
     background-color: #31BC9C;
@@ -274,5 +298,8 @@
   header > nav > .container > ul > li:hover > a {
     text-decoration: none;
     color: #31BC9C;
+  }
+  main > section:first-of-type > .row > .col-xs-12:hover > .layover {
+    opacity: 1;
   }
 /* /animazioni */
