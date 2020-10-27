@@ -162,6 +162,7 @@
     border-radius: 10px;
     border: 3px solid white;
     color: white;
+    transition: all 0.4s;
   }
 
   main > section:nth-child(3){
@@ -299,7 +300,13 @@
     text-decoration: none;
     color: #31BC9C;
   }
+
   main > section:first-of-type > .row > .col-xs-12:hover > .layover {
     opacity: 1;
+  }
+
+  main > section:nth-child(2) > a:hover {
+    background-color: white;
+    color: black;
   }
 /* /animazioni */
