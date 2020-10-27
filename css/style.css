@@ -290,6 +290,9 @@
     font-size: 2em;
     font-weight: 700;
   }
+  header > .jumbotron > h1 {
+    font-size: 5em;
+  }
 
   footer > .container {
     max-width: 1170px;
